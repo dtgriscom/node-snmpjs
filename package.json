@@ -1,14 +1,14 @@
 {
-	"author": "Keith M Wesolowski <keith.wesolowski@joyent.com>",
-	"name": "snmpjs",
+	"author": "Dan Griscom <griscom@suitable.com>",
+	"name": "snmpjs-new",
 	"description": "Simple Network Management Protocol toolkit",
-	"version": "0.1.8",
+	"version": "0.0.1",
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/joyent/node-snmpjs.git"
+		"url": "git://github.com/dtgriscom/node-snmpjs-new.git"
 	},
 	"bugs": {
-		"url" : "http://github.com/joyent/node-snmpjs/issues"
+		"url" : "http://github.com/dtgriscom/node-snmpjs-new/issues"
 	},
 	"main": "lib/index.js",
 	"engines": {
@@ -17,7 +17,7 @@
 	"dependencies": {
 		"jison": "0.3",
 		"asn1": "~0.2.2",
-		"bunyan": "~0.21",
+		"bunyan": "~1.8",
 		"dtrace-provider": "~0.4"
 	},
 	"devDependencies": {

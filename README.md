@@ -1,9 +1,12 @@
-snmpjs provides a toolkit for SNMP agents and management applications in
+snmpjs-new provides a toolkit for SNMP agents and management applications in
 Node.js.
+
+Note: this was forked from http://joyent.github.com/node-snmpjs
+for the purpose of various bug fixes.
 
 ## Usage
 
-For full docs, see <http://joyent.github.com/node-snmpjs/>.
+For full docs, see <http://joyent.github.com/node-snmpjs/> (I haven't made a doc page custom to this package).
 
 	var os = require('os');
 	var snmp = require('snmpjs');
@@ -34,4 +37,4 @@ MIT.
 
 ## Bugs
 
-See <https://github.com/joyent/node-snmpjs/issues>.
+See <https://github.com/dtgriscom/node-snmpjs-new/issues>.
