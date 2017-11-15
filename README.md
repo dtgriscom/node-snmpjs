@@ -29,7 +29,7 @@ Try hitting that with your favourite SNMP get utility, such as:
 
 ## Installation
 
-	$ npm install snmpjs
+	$ npm install snmpjs-new
 
 ## License
 
