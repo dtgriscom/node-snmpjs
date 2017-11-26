@@ -2,23 +2,22 @@
 	"author": "Dan Griscom <griscom@suitable.com>",
 	"name": "snmpjs-new",
 	"description": "Simple Network Management Protocol toolkit",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"repository": {
 		"type": "git",
 		"url": "git://github.com/dtgriscom/node-snmpjs-new.git"
 	},
 	"bugs": {
-		"url" : "http://github.com/dtgriscom/node-snmpjs-new/issues"
+		"url": "http://github.com/dtgriscom/node-snmpjs-new/issues"
 	},
 	"main": "lib/index.js",
 	"engines": {
 		"node": ">=0.6.9"
 	},
 	"dependencies": {
-		"jison": "0.3",
-		"asn1": "~0.2.2",
-		"bunyan": "~1.8",
-		"dtrace-provider": "~0.8"
+		"asn1": "^0.2.3",
+		"bunyan": "^1.8.12",
+		"jison": "0.3"
 	},
 	"devDependencies": {
 		"tap": "~0.4"
