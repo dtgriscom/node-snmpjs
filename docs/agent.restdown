@@ -18,7 +18,6 @@ optional, contains any or all of the following members:
 
 	{
 		name: [String],
-		dtrace: [Object (DTraceProvider)],
 		log: [Object (bunyan)]
 	}
 
@@ -26,14 +25,8 @@ The interfaces provided by the Agent object are described in detail below.
 
 ### name
 
-If present, the `name` member will be used to name the DTrace provider and to
-decorate log output.  The default value is `'snmpjs'`.
-
-### dtrace
-
-If present, the agent's DTrace probes will be appended to the existing provider
-referenced by the `dtrace` member.  Otherwise, a new provider identified by the
-`name` member (or its default value if absent) will be created.
+If present, the `name` member will be used to decorate log output. The default
+value is `'snmpjs'`.
 
 ### log
 
